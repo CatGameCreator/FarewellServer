@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "5BDC6C3A035D2DF3", title: "Mutual Quests" }
+		{ id: "26FEA8AAF7528ED3", title: "Techic Quests" }
+		{ id: "0478EB4613B65F48", title: "Mage Quests" }
+	]
+}

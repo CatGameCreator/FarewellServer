@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utilities"
+	group: "5BDC6C3A035D2DF3"
+	icon: "ae2:nether_quartz_wrench"
+	id: "3E16F2F46B00419C"
+	images: [{
+		click: "https://tweaked.cc/"
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: ["Click to check out the ComputerCraft Restitched wiki!"]
+		image: "computercraft:block/computer_normal_front_blink"
+		rotation: 0.0d
+		width: 1.0d
+		x: 9.5d
+		y: 4.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The &aChisel&f mod allows you to add a lot of variety to your builds. The tool itself has &bno durability&f, so feel free to go wild with it."]
+			id: "73C2BC46B62799D4"
+			rewards: [{
+				id: "65873882A7F0AC7E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "King of block variety"
+			tasks: [{
+				id: "6B82EEFE4E5941B7"
+				item: "chisel:chisel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&aDecorative Blocks&f is a mod designed around simple block additions that can change a lot of the look in your builds."
+				""
+				"The support blocks can be interacted with an axe to configure their sides."
+			]
+			icon: "decorative_blocks:brazier"
+			id: "10CD749A39267942"
+			rewards: [{
+				id: "2723A47485A2CAA7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Simple, yet efficient"
+			tasks: [{
+				id: "43E5211A28223616"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Decorative Blocks"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			description: ["The recipe for the &aBundle&f has been enabled. It can be quite useful for the early game item clutter you may find."]
+			id: "06170E4C91291CE2"
+			rewards: [{
+				id: "7357A762BFAE0987"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "So vanilla it had to be modded in"
+			tasks: [{
+				id: "2924A7981900E00B"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			description: ["Thanks to a mod, the &aTotem of Undying&f can now be equipped in a &etrinket slot&f. This means you can keep your shield in your offhand and not fear death as long as it's equipped."]
+			id: "7DF831878A6CF9FF"
+			rewards: [{
+				id: "68AE384C31596C70"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Wearable invulnerability"
+			tasks: [{
+				id: "0ED6EFAC63E20139"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Small, but important additions"]
+	title: "&eВсякие приколы"
+}

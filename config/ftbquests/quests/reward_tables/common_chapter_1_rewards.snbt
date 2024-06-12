@@ -1,0 +1,95 @@
+{
+	id: "11F02DC06318D7BE"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 32, item: "minecraft:stone" }
+		{ count: 32, item: "minecraft:coal_ore" }
+		{ count: 8, item: "minecraft:iron_ore" }
+		{ count: 2, item: "minecraft:diamond_ore" }
+		{ count: 18, item: "minecraft:lapis_ore" }
+		{ count: 48, item: "minecraft:cobblestone" }
+		{ count: 8, item: "minecraft:copper_block" }
+		{ count: 16, item: "minecraft:oak_log" }
+		{ item: "minecraft:emerald_ore" }
+		{ count: 8, item: "minecraft:white_wool" }
+		{ count: 16, item: "minecraft:sugar_cane" }
+		{ count: 16, item: "minecraft:torch" }
+		{ count: 6, item: "minecraft:cactus" }
+		{ count: 5, item: "minecraft:pumpkin" }
+		{ item: "minecraft:anvil" }
+		{ item: "minecraft:enchanting_table" }
+		{ count: 24, item: "minecraft:sand" }
+		{ count: 32, item: "minecraft:clay" }
+		{ count: 32, item: "minecraft:brick" }
+		{ count: 16, item: "minecraft:gravel" }
+		{ count: 8, item: "minecraft:glass" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:hopper" }
+		{ item: "minecraft:observer" }
+		{ count: 4, item: "minecraft:redstone_block" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:dried_kelp_block" }
+		{ count: 4, item: "minecraft:slime_ball" }
+		{ count: 8, item: "minecraft:porkchop" }
+		{ count: 16, item: "minecraft:bread" }
+		{ count: 12, item: "minecraft:gunpowder" }
+		{ count: 9, item: "minecraft:feather" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:brewing_stand" }
+		{ count: 9, item: "minecraft:cooked_beef" }
+		{ count: 3, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:baked_potato" }
+		{ count: 12, item: "minecraft:cooked_salmon" }
+		{ count: 8, item: "minecraft:pumpkin_pie" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:bundle" }
+		{ count: 12, item: "minecraft:cooked_mutton" }
+		{ count: 3, item: "minecraft:nautilus_shell" }
+		{ count: 2, item: "extended_drawers:t1_upgrade" }
+		{ count: 2, item: "extended_drawers:t2_upgrade" }
+		{ count: 2, item: "extended_drawers:t3_upgrade" }
+		{ count: 2, item: "extended_drawers:t4_upgrade" }
+		{ item: "extended_drawers:access_point" }
+		{ count: 8, item: "minecraft:quartz" }
+		{ count: 2, item: "minecraft:raw_iron_block" }
+		{ count: 8, item: "minecraft:raw_gold" }
+		{ item: "minecraft:jukebox" }
+		{ item: "chisel:chisel" }
+		{ item: "farmersdelight:apple_pie" }
+		{ item: "farmersdelight:sweet_berry_cheesecake" }
+		{ item: "farmersdelight:chocolate_pie" }
+		{ item: "farmersdelight:roast_chicken_block" }
+		{ item: "farmersdelight:stuffed_pumpkin_block" }
+		{ item: "farmersdelight:honey_glazed_ham_block" }
+		{ item: "farmersdelight:shepherds_pie_block" }
+		{ item: "farmersdelight:rice_roll_medley_block" }
+		{ count: 8, item: "kubejs:concrete_bar" }
+	]
+	title: "Chapter 1 Rewards"
+	use_title: true
+}

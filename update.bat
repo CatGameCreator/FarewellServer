@@ -1,3 +1,4 @@
+taskkill /im start.bat
 if exist "C:\Users\ivang\Documents\Farewell\FarewellServer" (
   echo updating
   cd "C:\Users\ivang\Documents\Farewell\FarewellServer"

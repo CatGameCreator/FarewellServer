@@ -11,4 +11,5 @@ if exist "C:\Users\ivang\Documents\Farewell\FarewellServer" (
   git clone https://github.com/CatGameCreator/FarewellServer.git
 )
 timeout 10
+py main.py
 call start.bat

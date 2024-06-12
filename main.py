@@ -236,8 +236,8 @@ def start_server(name):
     start_file = None # The name of the start file. This is initially None to represent that there is no start file.
     if 'start.bat' in server_files: # Check if start.bat is a file in the subdirectory
         start_file = 'start.bat' # If so, set the start file to it
-    if 'run.bat' in server_files: # Check if run.bat is a file in the subdirectory
-        start_file = 'run.bat' # If so, set the start file to it
+    if 'update.bat' in server_files: # Check if run.bat is a file in the subdirectory
+        start_file = 'update.bat' # If so, set the start file to it
 
     if not start_file: # Check if there is still no start file in the subdirectory
         print(f'{server_path} did not contain a valid start file') # If there is no start file, log an error message to the console...

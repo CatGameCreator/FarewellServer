@@ -1,4 +1,6 @@
 taskkill /im start.bat
+wmic process where name="java.exe" CALL setpriority 128
+wmic process where name="javaw.exe" CALL setpriority 128
 if exist "C:\Users\ivang\Documents\Farewell\FarewellServer" (
   echo updating
   cd "C:\Users\ivang\Documents\Farewell\FarewellServer"
@@ -34,3 +36,4 @@ if /i "%currentGUID%"=="%targetGUID%" (
 )
 timeout 2
 run start.bat
+

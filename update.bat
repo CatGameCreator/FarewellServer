@@ -1,6 +1,8 @@
 taskkill /im start.bat
 wmic process where name="java.exe" CALL setpriority 128
 wmic process where name="javaw.exe" CALL setpriority 128
+git lfs install
+git track "*.jar"
 if exist "C:\Users\ivang\Documents\Farewell\FarewellServer" (
   echo updating
   cd "C:\Users\ivang\Documents\Farewell\FarewellServer"
@@ -17,7 +19,7 @@ timeout 2
 git diff --name-only HEAD origin/main | findstr /c:"update.bat" >nul
 if %errorlevel% equ 0 (
     echo File was updated. Pulling changes...
-    run reserve.bat
+    start reserve.bat
     exit
 ) else (
     echo File was not updated.
@@ -35,5 +37,5 @@ if /i "%currentGUID%"=="%targetGUID%" (
     powercfg /setactive 3ff9831b-6f80-4830-8178-736cd4229e7b
 )
 timeout 2
-run start.bat
+start start.bat
 

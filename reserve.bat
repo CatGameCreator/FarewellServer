@@ -4,4 +4,4 @@ git stash
 git pull
 git stash pop
 timeout 2
-run update.bat
+start update.bat
